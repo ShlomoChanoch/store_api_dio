@@ -1,6 +1,6 @@
 services:
   db:
-    image: 'mongo:4.4'
+    image: 'mongo:4.4' # Meu pc não aguenta rodar MongoDB além da 5.0+, porque não tenho suporte AVX, sinta-se à vontade pra usar latest
     ports:
       - 27017:27017
     restart: on-failure
